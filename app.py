@@ -44,8 +44,8 @@ def setup_streamlit():
     Configures Streamlit's page settings and displays the app title and markdown information.
     Sets the page layout, title, and markdown content with links and app description.
     """
-    st.set_page_config(page_title="⭐ GSC | Evergreen Queries y Pages", page_icon="🍏")
-    st.title("⭐ GSC | Evergreen Queries y Pages")
+    st.set_page_config(page_title="GSC | Evergreen Queries y Pages", page_icon="🟩")
+    st.title("🟩 GSC | Evergreen Queries y Pages")
     st.write()
     st.write("""Esta app permite ver páginas o queries que se mantienen con clicks e impresiones a lo largo del tiempo.""")
     st.caption(f"[Creado por Damián Taubaso](https://www.linkedin.com/in/dtaubaso/)")
