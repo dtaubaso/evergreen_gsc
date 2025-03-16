@@ -83,11 +83,11 @@ def load_config():
     """
     client_config = {
         "installed": {
-            "client_id": os.environ['CLIENT_ID'],
-            "client_secret": os.environ['CLIENT_SECRET'],
+            "client_id": st.secrets['CLIENT_ID'],
+            "client_secret": st.secrets['CLIENT_SECRET'],
             "auth_uri": "https://accounts.google.com/o/oauth2/auth",
             "token_uri": "https://accounts.google.com/o/oauth2/token",
-            "redirect_uris": os.environ['REDIRECT_URI'],
+            "redirect_uris": st.secrets['REDIRECT_URI'],
         }
     }
     return client_config
