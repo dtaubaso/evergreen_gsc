@@ -47,10 +47,12 @@ def setup_streamlit():
     st.set_page_config(page_title="GSC | Evergreen Queries y Pages", page_icon="🟩")
     st.title("🟩 GSC | Evergreen Queries y Pages")
     st.write()
-    st.write("""Esta app permite ver páginas o queries que se mantienen con clicks e impresiones a lo largo del tiempo.
-             Toma rangos a mes cerrado de 3, 6 o 12 meses.
-             La tabla final muestra clicks e impresiones por mes, los totales, 
-             la cantidad de meses con data y la cantidad de días con data""")
+    st.write("Esta app permite ver páginas o queries que se mantienen con clicks e impresiones a lo largo del tiempo.")
+    st.write("Toma rangos a mes cerrado de 3, 6 o 12 meses.")
+    st.write("""La tabla final muestra clicks e impresiones por mes, los totales, 
+             la cantidad de meses con data y la cantidad de días con data."""))
+             
+             
     st.caption(f"[Creado por Damián Taubaso](https://www.linkedin.com/in/dtaubaso/)")
     st.divider()
 
