@@ -48,9 +48,7 @@ def setup_streamlit():
     st.title("🟩 GSC | Evergreen Queries y Pages")
     st.write()
     st.write("""Esta app permite ver páginas o queries que se mantienen con clicks e impresiones a lo largo del tiempo.
-             
              Toma rangos a mes cerrado de 3, 6 o 12 meses.
-             
              La tabla final muestra clicks e impresiones por mes, los totales, 
              la cantidad de meses con data y la cantidad de días con data""")
     st.caption(f"[Creado por Damián Taubaso](https://www.linkedin.com/in/dtaubaso/)")
